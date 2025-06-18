@@ -1,0 +1,153 @@
+.header-image {
+    width: 100%;
+    height: 700px;
+}
+
+.h-line {
+    height: 0.5px;
+    width: auto;
+    background-color: #1d1d1d;
+}
+
+.h-line2 {
+    height: 2px;
+    width: auto;
+    background-color: #ffffff;
+}
+
+.header1 {
+    font-weight: 400;
+    margin-left: 100px;
+    margin-top: 50px;
+    font-size: 50px;
+}
+
+.para1 {
+    width: 500px;
+    margin-left: 100px;
+    color: #6d6c6c;
+}
+
+.collection {
+    background-color: #202020;
+    padding: 40px 100px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; 
+    gap: 20px;
+    padding-top: 20px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    border: 1px solid white;
+    padding-left: 10px;
+    border-radius: 5px;
+    width: 300px;
+    color: #6d6c6c;
+}
+
+.search-icon {
+    margin-right: 10px;
+    margin-top: 1px;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 30px;
+}
+.search-input {
+    display: flex;
+    align-items: center;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    width: 300px;
+    color: #ffffff;
+    background-color: #202020;
+}
+.search-input:focus {
+    outline: none;
+    border: none;
+}
+
+.movie-thumb {
+    display: flex;
+}
+
+.movie {
+    height: 100px;
+}
+/* @media screen and (max-width: 830px) {
+    .header1 {
+        text-align: left;
+        margin: 50px auto 20px auto;
+        font-size: 36px;
+    }
+
+    .para1 {
+        text-align: left;
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    .collection {
+        padding: 20px;
+    }
+
+    .top {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .search {
+        justify-content: center;
+        width: 60%;
+        margin-bottom: 20px;
+    }
+} */
+/* Responsive for Mobile */
+@media screen and (max-width: 350px) {
+    .search {
+        width: 80%;
+        padding-left: 0x;
+    }
+    .header1 {
+        text-align: left;
+        margin: 50px auto 20px 20px;
+        font-size: 36px;
+        padding: 5px;
+    }
+    .para1 {
+        text-align: left;
+        margin-left: 20px;
+        padding: 5px;
+        width: 360px;
+    }
+    .header-image {
+        width: 500px;
+        height: 300px;
+    }
+    .top {
+        align-items: left;
+        text-align: left;
+        
+        padding: 20px;
+    }
+
+    .collection {
+        background-color: #202020;
+        width: 500px;
+        align-items: left;
+        text-align: left;
+        padding: 0px;
+        
+    }
+    
+}
