@@ -1,6 +1,6 @@
 .header-image {
     width: 100%;
-    height: 700px;
+    height: 500px;
 }
 
 .h-line {
@@ -22,6 +22,7 @@
     font-size: 50px;
 }
 
+
 .para1 {
     width: 500px;
     margin-left: 100px;
@@ -30,7 +31,7 @@
 
 .collection {
     background-color: #202020;
-    padding: 40px 100px;
+
 }
 
 .top {
@@ -38,8 +39,8 @@
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap; 
-    gap: 20px;
-    padding-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .search {
@@ -60,6 +61,7 @@
 h2 {
     font-weight: 400;
     font-size: 30px;
+    
 }
 .search-input {
     display: flex;
@@ -80,38 +82,35 @@ h2 {
     display: flex;
 }
 
-.movie {
+.movies {
     height: 100px;
 }
-/* @media screen and (max-width: 830px) {
+@media screen and (350px <= width<= 830px) {
     .header1 {
         text-align: left;
-        margin: 50px auto 20px auto;
+        margin-left: 50px;
         font-size: 36px;
     }
 
     .para1 {
         text-align: left;
-        margin: 0 auto;
-        width: 90%;
-    }
-
-    .collection {
-        padding: 20px;
+        margin-left: 50px;
+        width: 70%;
     }
 
     .top {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
+        align-items: left;
+        text-align: left;
+        margin-left: 50px;
     }
 
     .search {
         justify-content: center;
         width: 60%;
         margin-bottom: 20px;
+        
     }
-} */
+}
 /* Responsive for Mobile */
 @media screen and (max-width: 350px) {
     .search {
@@ -128,7 +127,7 @@ h2 {
         text-align: left;
         margin-left: 20px;
         padding: 5px;
-        width: 360px;
+        width: 400px;
     }
     .header-image {
         width: 500px;
@@ -137,17 +136,25 @@ h2 {
     .top {
         align-items: left;
         text-align: left;
-        
+        margin-left: 10px;
         padding: 20px;
+        margin-right: 0px;
+        padding-right: 0px;
     }
 
     .collection {
         background-color: #202020;
-        width: 500px;
+        width: auto;
         align-items: left;
         text-align: left;
         padding: 0px;
+        margin-right: 0px;
+        padding-right: 0px;
         
     }
+    .paragraph {
+        width: 500px;
+    }
+  
     
 }

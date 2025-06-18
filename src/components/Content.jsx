@@ -26,7 +26,7 @@ const Content = () => {
                 <div className="h-line2"></div>
 
                 <div className="movie-thumb">
-                    <div className="movie">
+                    <div className="movies">
                         
                     </div>
                 </div>
