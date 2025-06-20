@@ -31,7 +31,6 @@
 
 .collection {
     background-color: #202020;
-
 }
 
 .top {
@@ -80,11 +79,31 @@ h2 {
 
 .movie-thumb {
     display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    margin-left:100px;
+    margin-right: 150px;
+    flex-wrap: wrap;
+
 }
 
 .movies {
-    height: 100px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
 }
+.movie-name {
+    font-size: 30px;
+}
+.movie-desc {
+    font-size: 22px;
+}
+.movie-images {
+    height: auto;
+    width :450px;
+    
+}
+
 @media screen and (350px <= width<= 830px) {
     .header1 {
         text-align: left;
@@ -144,7 +163,7 @@ h2 {
 
     .collection {
         background-color: #202020;
-        width: auto;
+        width: 500px;
         align-items: left;
         text-align: left;
         padding: 0px;
@@ -155,6 +174,18 @@ h2 {
     .paragraph {
         width: 500px;
     }
+
+    .movies {
+    }
   
+    .movie-images {
+        height: auto;
+        width :400px;
+        
+    }
+    .movie-thumb {
+        margin-left: 30px;
+        margin-right: 0px;
+    }
     
 }
