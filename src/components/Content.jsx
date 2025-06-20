@@ -18,15 +18,18 @@ const Content = () => {
 
             <div className="collection">
                 <div className="top">
-                    <h2>Collect Your Favourites</h2>
-                    <div className="search">
-                        <img src={searchIcon} alt="search icon" className="search-icon"/>
-                        <input type="text" placeholder="Search title and add to grid" className="search-input"/>       
+                    <div className="top-second">
+                        <h2>Collect Your Favourites</h2>
+                        <div className="search">
+                            <img src={searchIcon} alt="search icon" className="search-icon"/>
+                            <input type="text" placeholder="Search title and add to grid" className="search-input"/>       
+                        </div>
                     </div>
+                    <div className="h-line2"></div>
                 </div>
-                <div className="h-line2"></div>
+                
+                <div className="movie-thumb">                
 
-                <div className="movie-thumb">
                     <div className="movies">
                         <img src={movieImg1} alt="movieImg1" className='movie-images'/>
                         <h3 className='movie-name'>Batman Returns</h3>
@@ -37,19 +40,23 @@ const Content = () => {
                     </div>
                     <div className="movies">
                         <img src={movieImg1} alt="movieImg1" className='movie-images'/>
+                        <div className="description">
                         <h3 className='movie-name'>Wild Wild West</h3>
                         <p3 className='movie-desc'>Lorem ipsum dolor sit amet,
                             consetetur sadipscing elitr, sed diam
                             nonumy eirmod tempor invidunt ut…
                         </p3>
+                        </div>
                     </div>
                     <div className="movies">
                         <img src={movieImg1} alt="movieImg1" className='movie-images'/>
-                        <h3 className='movie-name'>The Amazing Spiderman</h3>
-                        <p3 className='movie-desc'>Lorem ipsum dolor sit amet,
-                            consetetur sadipscing elitr, sed diam
-                            nonumy eirmod tempor invidunt ut…
-                        </p3>
+                        <div className="description">
+                            <h3 className='movie-name'>The Amazing Spiderman</h3>
+                            <p3 className='movie-desc'>Lorem ipsum dolor sit amet,
+                                consetetur sadipscing elitr, sed diam
+                                nonumy eirmod tempor invidunt ut…
+                            </p3>
+                        </div>
                     </div>
                 </div>
             </div> 
