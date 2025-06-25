@@ -6,7 +6,9 @@
 .footer-middle {
     display: flex;
     justify-content: space-between;
-    gap: 80px;
+    gap: 10px;
+    margin-bottom: 50px;
+
 }
 .footer-head {
     margin-bottom: 50px;
@@ -15,4 +17,73 @@
 }
 .name-fields {
     display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.name {
+    height: 30px;
+    padding: 2px;
+    background-color: #202020;
+    border: none;
+    border-radius: 3px;
+    color: #d3d3d3;
+}
+.name:focus {
+    border: none;
+    outline: none;
+}
+
+.message {
+    padding: 2px;
+    background-color: #202020;
+    border: none;
+    border-radius: 3px;
+    color: #d3d3d3;
+    
+}
+.message:focus {
+    border: none;
+    outline: none;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.field-o {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 12px;
+}
+
+.lable {
+    color: #8b8b8b;
+}
+.c-box-lable {
+    color: #8b8b8b;
+}
+.check-box {
+    margin-top: 10px;
+    display: flex;
+}
+input[type="checkbox"] {
+    margin-right: 20px;
+    width: 18px; 
+    height: 18px;
+    cursor: pointer;
+    accent-color: #030946;
+    color: #000000;
+    
+  }
+.btn-submit {
+    background-color: #ff9900;
+    color: rgb(230, 230, 230);
+    height: 35px;
+    width: 50%;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 50%;
 }
