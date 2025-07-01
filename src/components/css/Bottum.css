@@ -1,0 +1,46 @@
+.bottum {
+    background-color: #202020;
+    padding-top: 20px;
+}
+.hline{
+    height: 2px;
+    width: auto;
+    background-color: #303030;
+}
+.media {
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 8px;
+}
+
+.copyRight {
+
+    padding-bottom: 3px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.com-name {
+    font-size: 20px;
+    font-weight: 600;
+}
+.follow {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.follow-us {
+    font-size: 18px;
+    width: 120px;
+}
+.icon-media {
+    height: 20px;
+    margin-top: 3px;
+}
+.preserve-text {
+    white-space: pre-wrap;
+  }
+  

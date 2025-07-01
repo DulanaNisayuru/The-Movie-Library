@@ -1,3 +1,4 @@
+import Bottum from "./Bottum";
 import Content from "./Content";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
@@ -9,6 +10,7 @@ const Home = () => {
             <Navbar/>
             <Content/>
             <Footer/>
+            <Bottum/>
         </div>
      );
 }
