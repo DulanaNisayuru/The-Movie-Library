@@ -28,7 +28,7 @@ const Footer = () => {
         <div className="footer">
             <div className="footer-head">
                 <h2>How to reach us</h2>
-                <p>
+                <p className="form-description">
                 Lorem ipsum dolor sit amet, consetetur.
                 </p>
             </div>
